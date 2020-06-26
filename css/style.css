@@ -1,6 +1,7 @@
 *{
 	margin:0;
 	padding:0;
+	font-family:sans-serif;
 }
 .logo,.heading,nav{	
 	float:left;
@@ -61,7 +62,7 @@ nav ul li a:hover{
 .banner_content{
 	width:23%;
 	background-color:rgba(0,0,0,.5);
-	margin:50px 0px 160px;
+	margin:5% 0px 15%;
 	padding-top:10px;
 }
 .banner_content h2{
@@ -98,5 +99,90 @@ nav ul li a:hover{
 .banner_content button:focus{
 	outline:none;
 }
-
 /*banner end*/
+
+/*servic start*/
+.service{
+	background:white;
+}
+.wrapper2{
+	width:85%;
+	margin:0 auto;
+	padding:5% 0;
+	overflow:hidden;
+}
+.card{
+	width:30%;
+	padding-right:5%;
+	text-align:center;
+	color:#595755;
+	float:left;
+}
+.card:last-child{
+	padding-right:0;
+}
+.card h2{
+	font-weight: 100;
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+.card img{
+	width:100%;
+}
+.card p{
+	line-height: 28px;
+    padding: 12% 0;
+}
+.card button{
+    width: 25%;
+    height: 28px;
+    font-size:11px;
+	background-color:#46627e;
+	color:white;
+	border-radius:5px;
+	border: 0;
+	cursor:pointer;
+	transition:.3s;
+}
+.card button:hover{
+	color:#2089C2;
+}
+.card button:focus{
+	outline:none;
+}
+/*servic end*/
+/*footer start*/
+footer{}
+.f_wrapper{
+	width:35%;
+	color:#385d7c;
+	text-align:center;
+	margin:0 auto;
+}
+.f_wrapper h4{
+	font-size:15px;
+	font-weight:100;
+	text-transform:capitalize;
+}
+.f_wrapper p{
+	font-size: 12px;
+    font-weight: 100;
+    padding: 3% 0 4%;
+}
+.f_wrapper ul{
+	overflow:hidden;
+	list-style:none;
+	padding-left:33%;
+}
+.f_wrapper ul li{
+	float:left;
+	padding:2%;
+}
+.f_wrapper ul li a{
+	text-decoration: none;
+}
+.f_wrapper ul li a img{}
+.f_wrapper ul li:hover{
+	opacity:0.3;
+}
+/*footer end*/
